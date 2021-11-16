@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Ma plus jolie intégration </title>
+        <title> Hommage à Willy Schraen</title>
         <style >
+
+            body {
+                background-color: red;
+            }
+
             h1 {
-                color: tomato;
+                color: white;
                 display: block;
                 text-align: center;
                 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,12 +20,36 @@
                 justify-content: space-around;
             }
 
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+            }
+
+            .gallery li {
+                list-style: none;
+                margin: 1em;
+            }
+
+            .gallery li img {
+                width: 20vw;
+                height: 200px;
+                object-fit: cover;
+            }
+
         </style>
     </head>
     <body>
         <h1>Mon beau ragondin</h1>
         <div class="container" >
-            <img src="https://cdn.radiofrance.fr/s3/cruiser-production/2020/02/448062e9-308d-4584-9485-f06668cb9aa2/1200x680_image10.jpg" />
+            <ul class="gallery" >
+                <li><img src="https://photos.lci.fr/images/613/344/willy-scharen-chasseur-fnc-bc9efb-0@1x.jpeg" ></li>
+                <li><img src="https://www.francetvinfo.fr/pictures/zXL4B_eoGZBwmzcr508OMDMLmTw/752x423/2021/11/14/phpbIrxxJ.jpg" ></li>
+                <li><img src="https://cdn-lejdd.lanmedia.fr/var/europe1/storage/images/lejdd/societe/willy-schraen-president-des-chasseurs-nous-avons-un-role-a-jouer-en-matiere-de-police-de-proximite-4076848/57843888-1-fre-FR/Willy-Schraen-president-des-chasseurs-Nous-avons-un-role-a-jouer-en-matiere-de-police-de-proximite.jpg" ></li>
+                <li><img src="https://img.20mn.fr/yOlzw_Q4RYKIZ4DdAlyAGg/830x532_president-federation-nationale-chasse-fnc-willy-schraen.jpg" ></li>
+                <li><img src="https://media.vanityfair.fr/photos/60d37aec89fe1a7b624a46a6/16:9/w_1280,c_limit/qui_est_vraiment_willy_schraen_home_4729.jpeg" ></li>
+                <li><img src="https://www.chassepassion.net/wp-content/uploads/2021/07/willy-schraen.jpg" ></li>
+            </ul>
         </div>
     </body>
 </html>
