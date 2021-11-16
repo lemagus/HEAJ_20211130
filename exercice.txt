@@ -1,0 +1,7 @@
+1. Créer un nouveau projet git
+2. Créer un nouveau fichier HTML et faire une première intégration
+3. Créer une nouvelle branche
+4. Modifier la nouvelle branche
+5. Revenir à la master
+6. Modifier la master
+7. fusionner les deux
